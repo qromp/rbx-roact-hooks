@@ -44,7 +44,7 @@ function Hooks.new(roact)
 			options = {}
 		end
 
-		local componentType = options.componentType
+		local componentType = "PureComponent"
 		local name = options.name or debug.info(render, "n")
 
 		local classComponent
